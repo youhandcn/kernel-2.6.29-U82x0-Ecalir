@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/built-in.o :=  arm-linux-ld -EL    -r -o drivers/input/touchscreen/built-in.o drivers/input/touchscreen/synaptics_i2c_rmi_tm1319.o drivers/input/touchscreen/cypress_cpt_i2c_ts.o drivers/input/touchscreen/melfas_i2c_ts.o drivers/input/touchscreen/cypress_innolux_i2c_ts.o 

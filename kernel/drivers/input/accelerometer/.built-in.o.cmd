@@ -1,0 +1,1 @@
+cmd_drivers/input/accelerometer/built-in.o :=  arm-linux-ld -EL    -r -o drivers/input/accelerometer/built-in.o drivers/input/accelerometer/gsdev.o drivers/input/accelerometer/gs_st.o drivers/input/accelerometer/gs_freescale.o 

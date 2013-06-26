@@ -1,0 +1,1 @@
+cmd_drivers/staging/android/logger_test.ko := arm-linux-ld -EL -r   --build-id -o drivers/staging/android/logger_test.ko drivers/staging/android/logger_test.o drivers/staging/android/logger_test.mod.o

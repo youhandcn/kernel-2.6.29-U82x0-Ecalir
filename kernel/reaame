@@ -1,0 +1,4 @@
+boot.img-ramdisk.gz 可以用split_bootimg.pl脚本从手机的原来的boot.img里生成:
+./split_bootimg.pl boot.img
+
+mkbootimg --cmdline 'mem=256M console=ttyMSM2,115200n8 androidboot.hardware=qcom console=ttyUSBCONSOLE0 androidboot.console=ttyUSBCONSOLE0' --kernel arch/arm/boot/zImage --ramdisk boot.img-ramdisk.gz -o boot.img
